@@ -25,6 +25,12 @@ public class DependentParticipant {
 	
 	@Column(name = "dateOfBirth")
 	private Date dateOfBirth;
+	
+	
+
+	public DependentParticipant() {
+		super();
+	}
 
 	public DependentParticipant(String firstName, String lastName, Date dateOfBirth) {
 		super();
